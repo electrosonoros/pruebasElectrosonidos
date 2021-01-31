@@ -1,6 +1,6 @@
 Aquí tienes un ejercicio
 
-
+<div id="sketch-holder"></div>
 <script src="p5.js"></script>
 <script src="p5.sound.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
