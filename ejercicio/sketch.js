@@ -2,6 +2,7 @@ let monoSynth;
 
 function setup() {
   let cnv = createCanvas(100, 100);
+  cnv.parent('sketch-holder')
   cnv.mousePressed(playSynth);
   background(220);
   textAlign(CENTER);
