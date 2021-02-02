@@ -13,3 +13,8 @@ Aquí tienes un ejercicio
   <script src="p5.sound.min.js"></script>
   <script src="sketch.js"></script>
 </div>
+
+Y esto es información detrás del ejercicio
+- uno
+- dos
+- tres
