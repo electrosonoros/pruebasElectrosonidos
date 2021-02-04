@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "prueba de P5"
 date:   01-02-2021
 dependencies:
