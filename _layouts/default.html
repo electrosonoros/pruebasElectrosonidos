@@ -22,10 +22,6 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">Ver proyecto en Github <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">Ver nuestro perfil de Github</a></p>
         {% endif %}
@@ -45,9 +41,9 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-        <p>Proyecto desarrollado por la <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p>Proyecto desarrollado por la <a href="oficioselectrosonoros.org">Escuela de Oficios Electrosonoros</a></p>
         {% endif %}
-        <p><small>Alojado en Github Pages &mdash; Tema por <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Alojado en <a href="{{site.github.repository_nwo}}">Github Pages</a> &mdash; Tema por <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
